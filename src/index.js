@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
+import FetchState from './context/Fetch/FetchState';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FetchState>
+      <App />
+    </FetchState>
   </React.StrictMode>,
   document.getElementById('root')
 );
