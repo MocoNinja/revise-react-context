@@ -10,3 +10,4 @@ Base en: https://www.youtube.com/watch?v=lSMBhUEVK8k
 * TESTS
 * Mejoras cargar, spinners, etc...
 * Evitar el cáncer de ojos
+* Imagen de Docker!
