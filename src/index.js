@@ -10,9 +10,7 @@ import FetchState from './context/Fetch/FetchState';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FetchState>
       <App />
-    </FetchState>
   </React.StrictMode>,
   document.getElementById('root')
 );
